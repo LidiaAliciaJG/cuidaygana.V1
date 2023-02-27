@@ -1,0 +1,109 @@
+.container-fluid img {
+  padding: 0 10px;
+}
+
+.Avatar-Videojuegos {
+    background-image: url(imagenes/fondo.png);
+    height: 750px;
+    padding: 50px 20px;
+}
+
+.V1-recolector  {
+    position:relative;
+    height:0;
+    padding-bottom:117.6%;
+    overflow:hidden;
+  }
+
+.V2-botella {
+  position:relative;
+  height:0;
+  padding-bottom:117.6%;
+  overflow:hidden;
+}
+
+.V3-alimentar {
+  position:relative;
+  height:0;
+  padding-bottom:117.6%;
+  overflow:hidden;
+}
+
+.V1-recolector iframe {
+  position:absolute;
+  top:0;
+  left:10%;
+  width:70%;
+  height:70%;
+}
+
+.V2-botella iframe {
+  position:absolute;
+  top:0;
+  left:10%;
+  width:70%;
+  height:70%;
+}
+
+.V3-alimentar iframe {
+  position:absolute;
+  top:0;
+  left:10%;
+  width:70%;
+  height:70%;
+}
+
+.V1-recolector a {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+
+.V2-botella a {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+
+.V3-alimentar a {
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+}
+
+  @media (max-width: 768px) {
+    .V1-recolector iframe {
+      height:85%;
+      width:85%;
+    }
+    .V1-recolector a {
+      bottom: 0;
+      right: 40%;
+    }
+    .V2-botella iframe {
+      height:85%;
+      width:85%;
+    }
+    .V2-botella a {
+      bottom: 0;
+      right: 40%;
+    }
+    .V3-alimentar iframe {
+      height:85%;
+      width:85%;
+    }
+    .V3-alimentar a {
+      bottom: 0;
+      right: 40%;
+    }
+    .Avatar-Videojuegos {
+      height: fit-content;
+    }
+  }
+
+
+footer .derechos-de-autor {
+    color: rgb(129, 129, 129);
+    font-size: smaller;
+    padding: 20px;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Lidia Alicia Julian Gonzalez, Pamela Martínez Juárez, Andrea Pablos Cabrera">
+    <meta name="description" content="Iniciar sesión en Cuida Y Gana.">
+    <meta name="keywords" content="cuidaygana, videojuego, reciclar, app">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="usuario-style.css" rel="stylesheet">
+
+    <title>Cuida Y Gana | Perfil</title>
+</head>
+
+<body>
+    <!--<nav class="navbar" style="background-color: #e3f2fd;">-->
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./imagenes/logo-scholas.png" alt="Logo" width="100" height="30" class="d-inline-block align-text-top">
+            <img src="./imagenes/logoV.png" alt="Logo" width="140" height="40" class="d-inline-block align-text-top">
+          </a>
+        </div>
+    </nav>
+
+  <section class="Avatar-Videojuegos">
+  <div class="container-md">
+    <div class="row">
+
+      <div class="col-md">
+        <div class="card" style="width: 25rem;">
+          <img src="./imagenes/Papita.jpg" class="card-img-top rounded-circle border border-5" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Papita</h4>
+            <h6 class="card-text mb-2 text-muted">Puntos: 5</h6>
+          </div>
+          <div class="card-footer">
+            <a href="./avatar.html" class="card-link">Personalizar</a>
+          </div>
+        </div>
+        <!--<div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="./imagenes/Papita.jpg" class="img-fluid rounded-circle border border-5" alt="...">
+            </div>
+            <div class="col-md-3">
+              <div class="card-body">
+                <h4 class="card-title">Papita</h4>
+                <h6 class="card-text mb-2 text-muted">Puntos: 5</h6>
+              </div>
+            </div>
+            <div class="card-footer">
+            <a href="#" class="card-link">Personalizar</a>
+          </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-5" id="avatar">
+            <img src="./imagenes/Papita.jpg" class="rounded border border-3" id="avatar-usuario" alt="imagen del usuario" width="250">
+          </div>
+          
+          <div class="col-md-6" id="info">
+            <div class="card" style="height: 250;">
+              <div class="card-header"></div>
+              <div class="card-body">
+                <h5 class="card-title">Papita</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Puntos: 5</h6>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-footer">
+                  <a href="#" class="card-link">Personalizar</a>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      </div>
+
+      <div class="col-md">
+        <div id="Tienda">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagenes/V1.png" class="card-img-top" alt="imagen muestra del videojuego 1">
+                <div class="card-body">
+                  <h5 class="card-title">Recoge Basura</h5>
+                  <p class="card-text">Ayuda a limpiar la ciudad recolectando botellas.</p>
+                  <p id="demo1"></p>
+                  <!--<a href="#" class="btn btn-primary" onclick="myFunction1()">Comprar</a>-->
+                  <a href="#" class="btn btn-primary" id="btn-Comprar-V1">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagenes/V2.png" class="card-img-top" alt="imagen muestra del videojuego 2">
+                <div class="card-body">
+                  <h5 class="card-title">Botella en el drenaje</h5>
+                  <p class="card-text">Recorre el camino de una botella.</p>
+                  <p id="demo2"></p>
+                  <a href="#" class="btn btn-primary" id="btn-Comprar-V2">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagenes/V3.png" class="card-img-top" alt="imagen muestra del videojuego 1">
+                <div class="card-body">
+                  <h5 class="card-title">Alimenta Bien</h5>
+                  <p class="card-text">Ayuda a que los animales no coman basura.</p>
+                  <p id="demo3"></p>
+                  <a href="#" class="btn btn-primary" id="btn-Comprar-V3">Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="imagenes/V2.png" class="card-img-top" alt="imagen muestra del videojuego 2">
+                <div class="card-body">
+                  <h5 class="card-title">Videojuego 4</h5>
+                  <p class="card-text">Descripción.</p>
+                  <p id="demo4"></p>
+                  <a href="#" class="btn btn-primary" id="btn-Comprar-V4">Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="Videojuegos">
+          <div id="V1-recolector" class="V1-recolector" hidden>
+            <iframe src="https://arcade.makecode.com/---run?id=_b9sDkM0iw9vr" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0">
+            </iframe>
+            <a href="#" class="btn btn-primary" id="btn-volver-tienda1">Volver</a>
+          </div>
+
+          <div id="V2-botella" class="V2-botella" hidden>
+            <iframe src="https://arcade.makecode.com/---run?id=_MtfDemMEhdgh" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0">
+            </iframe>
+            <a href="#" class="btn btn-primary" id="btn-volver-tienda2">Volver</a>
+          </div>
+
+          <div id="V3-alimentar" class="V3-alimentar" hidden>
+            <iframe src="https://arcade.makecode.com/---run?id=S16697-96216-33328-03211" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0">
+            </iframe>
+            <a href="#" class="btn btn-primary" id="btn-volver-tienda3">Volver</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div> 
+  </section>
+
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+    <div class="derechos-de-autor">Creado por Cuida y Gana: Lidia Alicia JG, Pamela MJ, Andrea PC (2023) &#169;</div>
+  </footer>
+
+  <script src="usuario-main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+</html>

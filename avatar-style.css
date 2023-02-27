@@ -1,0 +1,16 @@
+.container-fluid img {
+    padding: 0 10px;
+  }
+
+.avatar {
+    background-image: url(imagenes/fondo.png);
+    height: 700px;
+    padding: 50px 20px;
+}
+
+
+footer .derechos-de-autor {
+    color: rgb(129, 129, 129);
+    font-size: smaller;
+    padding: 20px;
+}
